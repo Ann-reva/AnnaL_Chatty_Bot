@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    val number = 2
+    number = 5
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7307#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:7:7: error: unresolved reference: number
+    print(number)
+          ^
+  time: Sat, 17 Apr 2021 22:45:47 UTC
+record: -1
